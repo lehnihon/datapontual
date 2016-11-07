@@ -19,13 +19,13 @@
 				</div>
 				<div class="col-md-2 text-left">
 					<strong>A Empresa</strong><br>
-					<p><a href="#">Sobre a Data Pontual</a><br>
-						<a href="#">Fale Conosco</a></p>
+					<p><a href="#sobre-home">Sobre a Data Pontual</a><br>
+						<a href="#orcamento">Fale Conosco</a></p>
 				</div>
 				<div class="col-md-2 text-left">
 					<strong>Serviços</strong><br>
-					<p><a href="#">Logística para e-Comm.</a><br>
-						<a href="#">Solicite um Orçamento</a></p>
+					<p><a href="#solucoes-home">Logística para e-Comm.</a><br>
+						<a href="#orcamento">Solicite um Orçamento</a></p>
 				</div>
 				<div class="col-md-2 text-left">
 					<strong>Telefones</strong><br>

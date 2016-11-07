@@ -35,34 +35,48 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
     color: #858585;
     font-size: 22px;
     font-weight: bold; }
-  #page nav {
+  #page nav#principal {
     padding: 25px 0;
     position: absolute;
     right: 0;
     left: 0;
     z-index: 1010; }
-    #page nav div.menu-header {
+    #page nav#principal div.menu-header {
       margin-top: 25px; }
-      #page nav div.menu-header div.menu-op {
+      #page nav#principal div.menu-header div.menu-op {
         float: right;
         margin-right: 20px; }
-        #page nav div.menu-header div.menu-op a {
+        #page nav#principal div.menu-header div.menu-op a {
           color: white;
           font-weight: bold;
           padding-bottom: 10px; }
-        #page nav div.menu-header div.menu-op a:hover {
+        #page nav#principal div.menu-header div.menu-op a:hover {
           border-bottom: 2px solid white; }
-      #page nav div.menu-header div.menu-sec {
+      #page nav#principal div.menu-header div.menu-sec {
         margin-left: 40px; }
-      #page nav div.menu-header .criar-conta {
+      #page nav#principal div.menu-header .criar-conta {
         -webkit-border-radius: 6px;
         -moz-border-radius: 6px;
         border-radius: 6px;
         border: 1px solid white;
         padding: 10px !important; }
-      #page nav div.menu-header .criar-conta:hover {
+      #page nav#principal div.menu-header .criar-conta:hover {
         background-color: #0079ce;
         border-bottom: 1px solid white !important; }
+  #page nav.fixar {
+    position: fixed !important;
+    z-index: 1000 !important;
+    margin-top: 0px !important;
+    right: 0 !important;
+    left: 0 !important;
+    background-color: #FFFFFF;
+    box-shadow: 0px 5px 2px #888888; }
+    #page nav.fixar a {
+      color: #858585 !important; }
+    #page nav.fixar a:hover {
+      border-bottom: 2px solid #858585 !important; }
+    #page nav.fixar .criar-conta:hover {
+      color: white !important; }
   @media (max-width: 991px) {
     #page div.menu-responsivo {
       width: 50px;
@@ -158,7 +172,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
       display: inline-block; }
     #page #footer ul.redes_sociais_header .twitter {
       background-image: url("images/redes-sociais.jpg");
-      background-position: -82px,center;
+      background-position: -80px,center;
       background-repeat: no-repeat;
       width: 26px;
       height: 27px;
