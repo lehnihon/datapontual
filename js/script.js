@@ -10,13 +10,6 @@
         }
     });
 
-	$("a").click(function (event) {
-		event.preventDefault();
-		var idElemento = $(this).attr("href");
-		var deslocamento = $(idElemento).offset().top-100;
-		$('html, body').animate({ scrollTop: deslocamento }, 'slow');
-	});
-
     $(".anima-a").css('visibility','hidden');
     $(".anima-b").css('visibility','hidden');
     $(".anima-c").css('visibility','hidden');

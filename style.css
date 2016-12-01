@@ -49,11 +49,15 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
         #page nav#principal div.menu-header div.menu-op a {
           color: white;
           font-weight: bold;
-          padding-bottom: 10px; }
+          padding-bottom: 10px;
+          font-size: 13px; }
         #page nav#principal div.menu-header div.menu-op a:hover {
           border-bottom: 2px solid white; }
+        #page nav#principal div.menu-header div.menu-op .menu-img {
+          margin-right: 5px;
+          vertical-align: baseline; }
       #page nav#principal div.menu-header div.menu-sec {
-        margin-left: 40px; }
+        margin-left: 30px; }
       #page nav#principal div.menu-header .criar-conta {
         -webkit-border-radius: 6px;
         -moz-border-radius: 6px;
@@ -62,6 +66,35 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
         padding: 10px !important; }
       #page nav#principal div.menu-header .criar-conta:hover {
         background-color: #0079ce;
+        border-bottom: 1px solid white !important; }
+  #page nav#principalb {
+    padding: 25px 0; }
+    #page nav#principalb div.menu-header {
+      margin-top: 25px; }
+      #page nav#principalb div.menu-header div.menu-op {
+        float: right;
+        margin-right: 20px; }
+        #page nav#principalb div.menu-header div.menu-op a {
+          color: #797979;
+          font-weight: bold;
+          padding-bottom: 10px;
+          font-size: 13px; }
+        #page nav#principalb div.menu-header div.menu-op a:hover {
+          border-bottom: 2px solid #797979; }
+        #page nav#principalb div.menu-header div.menu-op .menu-img {
+          margin-right: 5px;
+          vertical-align: baseline; }
+      #page nav#principalb div.menu-header div.menu-sec {
+        margin-left: 30px; }
+      #page nav#principalb div.menu-header .criar-conta {
+        -webkit-border-radius: 6px;
+        -moz-border-radius: 6px;
+        border-radius: 6px;
+        border: 1px solid white;
+        padding: 10px !important; }
+      #page nav#principalb div.menu-header .criar-conta:hover {
+        background-color: #797979;
+        color: white;
         border-bottom: 1px solid white !important; }
   #page nav.fixar {
     position: fixed !important;
@@ -99,8 +132,31 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
         color: #3b78c9; }
         #page #sobre-home ul li span {
           color: #858585; }
+  #page #sobre-descricao {
+    padding: 60px 0; }
+    #page #sobre-descricao ul {
+      font-size: 18px; }
+      #page #sobre-descricao ul li {
+        color: #3b78c9; }
+        #page #sobre-descricao ul li span {
+          color: #858585;
+          font-size: 14px; }
   #page #solucoes-home {
     padding: 60px 0; }
+  #page #vantagens-ecommerce {
+    background-color: #0166bf;
+    padding: 80px 0; }
+    #page #vantagens-ecommerce h2, #page #vantagens-ecommerce p {
+      color: white; }
+    #page #vantagens-ecommerce .saiba-mais {
+      -webkit-border-radius: 6px;
+      -moz-border-radius: 6px;
+      border-radius: 6px;
+      border: 2px solid white;
+      padding: 10px 50px;
+      color: white; }
+    #page #vantagens-ecommerce .saiba-mais:hover {
+      background-color: #0079ce; }
   #page #vantagens-home {
     background-image: url("images/caixas.jpg");
     background-repeat: no-repeat;

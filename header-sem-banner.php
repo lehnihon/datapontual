@@ -21,7 +21,7 @@
 
 <body <?php body_class(); ?>>
 <div id="page">
-	<nav id="principal">
+	<nav id="principalb">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-3 text-left">
@@ -44,8 +44,8 @@
 					<div class="menu-header clearfix">
 						<div class="menu-op"><a class="criar-conta" href="#">Criar Conta</a></div>
 						<div class="menu-op menu-sec"><a href="#">Entrar</a></div>
-						<div class="menu-op"><a href="#"><img alt="logo" class="e-claro menu-img" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/tel.png"; ?>" />Ligue Agora</a></div>	
-						<div class="menu-op"><a href="#"><img alt="logo" class="e-claro menu-img" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/e-mail.png"; ?>" />Envie um e-mail</a></div>								
+						<div class="menu-op"><a href="#">Ligue Agora</a></div>	
+						<div class="menu-op"><a href="#">Envie um e-mail</a></div>								
 						<div class="menu-op"><a href="<?php echo home_url( '/' )."logistica-para-ecommerce"; ?>">Logística para e-Commerce</a></div>
 						<div class="menu-op"><a href="<?php echo home_url( '/' )."sobre"; ?>">Sobre a Data Pontual</a></div>
 					</div>
