@@ -65,7 +65,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
         border: 1px solid white;
         padding: 10px !important; }
       #page nav#principal div.menu-header .criar-conta:hover {
-        background-color: #0079ce;
+        background-color: #b5934e;
         border-bottom: 1px solid white !important; }
   #page nav#principalb {
     padding: 25px 0; }
@@ -97,17 +97,24 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
         color: white;
         border-bottom: 1px solid white !important; }
   #page nav.fixar {
+    padding: 0 !important;
+    padding-bottom: 5px !important;
     position: fixed !important;
     z-index: 1000 !important;
     margin-top: 0px !important;
     right: 0 !important;
     left: 0 !important;
     background-color: #FFFFFF;
-    box-shadow: 0px 5px 2px #888888; }
+    box-shadow: 0px 2px 2px #ececec; }
     #page nav.fixar a {
       color: #858585 !important; }
     #page nav.fixar a:hover {
       border-bottom: 2px solid #858585 !important; }
+    #page nav.fixar .criar-conta {
+      -webkit-border-radius: 6px;
+      -moz-border-radius: 6px;
+      border-radius: 6px;
+      border: 1px solid #858585 !important; }
     #page nav.fixar .criar-conta:hover {
       color: white !important; }
   @media (max-width: 991px) {
@@ -144,7 +151,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
   #page #solucoes-home {
     padding: 60px 0; }
   #page #vantagens-ecommerce {
-    background-color: #0166bf;
+    background-color: #b1842c;
     padding: 80px 0; }
     #page #vantagens-ecommerce h2, #page #vantagens-ecommerce p {
       color: white; }
@@ -156,11 +163,9 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
       padding: 10px 50px;
       color: white; }
     #page #vantagens-ecommerce .saiba-mais:hover {
-      background-color: #0079ce; }
+      background-color: #b5934e; }
   #page #vantagens-home {
-    background-image: url("images/caixas.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
+    background-color: #b1842c;
     width: 100%;
     padding: 80px 0; }
     #page #vantagens-home h2, #page #vantagens-home p {
@@ -173,28 +178,59 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
       padding: 10px 50px;
       color: white; }
     #page #vantagens-home .saiba-mais:hover {
-      background-color: #0079ce; }
+      background-color: #b5934e; }
+    #page #vantagens-home .wrap span, #page #vantagens-home .wrapb span {
+      position: relative;
+      display: inline-block;
+      width: 80px;
+      height: 80px;
+      color: #FFFFFF;
+      background-color: #b1842c;
+      font-size: 40px;
+      font-weight: 600;
+      line-height: 76px;
+      border: 2px solid #FFFFFF;
+      border-radius: 50%;
+      pointer-events: none; }
+    #page #vantagens-home .wrap span::before {
+      top: 76px; }
+    #page #vantagens-home .wrap span::after {
+      bottom: -152px; }
+    #page #vantagens-home .wrap span::after, #page #vantagens-home .wrap span::before {
+      content: '';
+      position: absolute;
+      left: calc(50% - 1px);
+      width: 2px;
+      height: calc(115px - 17px);
+      background-color: #FFFFFF; }
   #page #orcamento {
     padding: 60px 0; }
   #page #fale-conosco {
     background-color: #ececec;
     padding: 25px 0; }
+  #page #contato-pag {
+    padding: 60px 0; }
+    #page #contato-pag h1 {
+      margin-bottom: 10px; }
+    #page #contato-pag div.info-right {
+      margin-top: 25px;
+      background-color: #b1842c;
+      color: white;
+      padding: 25px; }
   @media (max-width: 991px) {
     #page .col-md-6 {
       margin-bottom: 10px; }
-    #page #vantagens-home {
-      background-image: none; }
-      #page #vantagens-home h2, #page #vantagens-home p {
-        color: #858585; }
-      #page #vantagens-home .saiba-mais {
-        background-color: #0079ce; }
     #page .img-responsivo {
-      width: 100%; } }
+      width: 100%; }
+    #page .wrap span::after, #page .wrap span::before {
+      background-color: transparent !important; } }
   #page #footer {
     padding: 40px 0;
-    background-color: #044379; }
+    background-color: #b5934e; }
     #page #footer p, #page #footer a, #page #footer strong {
       color: white; }
+    #page #footer a:hover {
+      color: #b1842c; }
     #page #footer ul.redes_sociais_header {
       padding: 0;
       height: 27px;
@@ -242,26 +278,48 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
       display: inline-block; }
   #page #copy {
     padding: 10px 0;
-    background-color: #063864; }
+    background-color: #a88032; }
     #page #copy .copy-text, #page #copy span {
       font-size: 12px;
       color: white; }
     #page #copy .text-footer {
       padding-top: 5px; }
   #page .input-contato {
+    border: 2px solid #D3D3D3;
+    padding: 10px;
+    border-radius: 6px; }
+  #page .input-contatob {
     border: 0;
-    padding: 5px;
-    background-color: #f4f4f4; }
+    padding: 10px;
+    border-radius: 6px;
+    background-color: #f0f2f4;
+    width: 90%; }
+  #page .btn-contato {
+    border: 0;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    padding: 10px 70px;
+    background-color: #b1842c;
+    color: white;
+    margin-top: 10px; }
+  #page .btn-contato:hover {
+    background-color: #b5934e; }
   #page .btn-redondo {
+    border: 0;
     -webkit-border-radius: 6px;
     -moz-border-radius: 6px;
     border-radius: 6px;
     padding: 10px 20px; }
   #page .btn-azul {
-    background-color: #3b78c9;
+    background-color: #b1842c;
     color: white; }
   #page .btn-azul:hover {
-    background-color: #9dbbe4; }
+    background-color: #b5934e; }
+  #page .form7 {
+    margin-top: 40px; }
+    #page .form7 p {
+      margin-bottom: 20px; }
 
 .videoWrapper {
   position: relative;
