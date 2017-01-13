@@ -96,16 +96,15 @@ get_header(); ?>
 				 armazenar produtos de alto valor.</p><br><br>
 			</div>
 		</div>
+
 		<div class="row">
 			<div class="col-md-2 col-md-offset-2">
 				<div class="wrap"><span>4</span></div>
 			</div>
 			<div class="col-md-6 text-left">
-				<h2>Empacotamos seus produtos com segurança</h2><br>
-				<p>Cada produto é cuidadosamente embalada com itens de proteção resistentes. Tudo para garantir
-				 que a enconmenda chegue intacta ao destino final.<br>
-				 Assim, você tem mais segurança nos envios e conomiza tempo e dinheiro, já que não precisará 
-				 mais se preocupar com a compra de embalagens e o empacotamento de seus produtos.</p><br><br>
+				 <h2>Transporte e Distribuição</h2><br>
+				 <p>A Data Pontual possui uma equipe altamente qualificada e uma frota própria, tudo que seus envios
+				  chegue ao destino final de forma segura e com o menor tempo possível.</p><br><br>
 			</div>
 		</div>
 		<div class="row">
@@ -113,9 +112,11 @@ get_header(); ?>
 				<div class="wrap"><span>5</span></div>
 			</div>
 			<div class="col-md-6 text-left">
-				 <h2>Transporte e Distribuição</h2><br>
-				 <p>A Data Pontual possui uma equipe altamente qualificada e uma frota própria, tudo que seus envios
-				  chegue ao destino final de forma segura e com o menor tempo possível.</p><br><br><br><br>
+				<h2>Empacotamos seus produtos com segurança</h2><br>
+				<p>Cada produto é cuidadosamente embalada com itens de proteção resistentes. Tudo para garantir
+				 que a enconmenda chegue intacta ao destino final.<br>
+				 Assim, você tem mais segurança nos envios e conomiza tempo e dinheiro, já que não precisará 
+				 mais se preocupar com a compra de embalagens e o empacotamento de seus produtos.</p><br><br>
 			</div>
 		</div>
 		<div class="row">
