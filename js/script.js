@@ -6,11 +6,13 @@
         if (offset <= $(window).scrollTop()-100) {
             $meuMenu.addClass('fixar');
             $meuMenu.addClass('animated fadeInDown');
+            $('.logo').attr("src", "/wp-content/themes/datapontual/images/logo-topb.png");
             $('.tel').attr("src", "/wp-content/themes/datapontual/images/telb.png");
             $('.email').attr("src", "/wp-content/themes/datapontual/images/e-mailb.png");
         } else {
             $meuMenu.removeClass('fixar animated fadeInDown');
 
+           $('.logo').attr("src", "/wp-content/themes/datapontual/images/logo-top.png");
             $('.tel').attr("src", "/wp-content/themes/datapontual/images/tel.png");
             $('.email').attr("src", "/wp-content/themes/datapontual/images/e-mail.png");
         }

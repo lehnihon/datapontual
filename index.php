@@ -15,12 +15,12 @@ get_header(); ?>
 	<div class="container">
 		<div class="row">
 			<div class="col-md-6 text-left anima-a">
-				<h1>Oque a Data Pontual pode fazer pela sua loja virtual?</h1><br>
+				<h1>Oque a Data Pontual pode fazer pela sua loja virtual?</h1><br><br>
 				<p>A Data Pontual oferece soluções completas de logística para lojas virtuais.<br>
 					Desde o processo de planejamento, coleta, armazenagem, picking, montangem de kits, 
 					logística reversa até a entrega para o consumidor final, tudo com segurança, qualidade e tecnologia</p>
 				<p>Contamos com um centro logístico amplo e seguro para a armazenagem do estoque das lojas virtuais, tudo para 
-					garantir que todos os produtos sejam armazenados, embalados de forma segura e com o menor tempo.</p>
+					garantir que todos os produtos sejam armazenados, embalados de forma segura e com o menor tempo.</p><br>
 				<ul>
 					<li><span>Buscamos seus produtos nos seus fornecedores</span></li>
 					<li><span>Seviços de Armazenagem</span></li>
@@ -30,8 +30,8 @@ get_header(); ?>
 					<li><span>Montagem de Kits</span></li>
 					<li><span><span>Transporte e Distribuição</span></li>
 					<li><span>Projeto personalizado para cada loja virtual</span></li>
-				</ul><br>
-				<a href="#orcamento" class="btn-redondo btn-azul">Solicite um orçamento</a>
+				</ul><br><br>
+				<a href="#orcamento" class="btn-redondo btn-azul">Saiba mais</a>
 			</div>
 			<div class="col-md-6 anima-b">
 				<img class="img-responsive" alt="feios" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/feios.jpg"; ?>"/>
@@ -54,7 +54,7 @@ get_header(); ?>
 				 uma vez que você não fica 100% focado nas estratégias de venda e crescimento da loja virtual.</p>
 				 <p>Contar com uma empresa especializado em logística para lojas virtuais, que oferece soluções inteligentes de
 				  armazenagem, manuseio e entrega, é um investimento que pode se pagar em curto ou médio prazo.</p><br>
-				  <a href="#orcamento" class="btn-redondo btn-azul">Solicite um orçamento</a>
+				  <a href="#orcamento" class="btn-redondo btn-azul">Saiba mais</a>
 			</div>
 		</div>
 	</div>
@@ -93,7 +93,7 @@ get_header(); ?>
 				  <p>A Data Pontual conta com um amplo espaço para armazenagem para todos os tipos de produtos, desde cosméticos, 
 				   suplementos, livros, roupas, acessórios e peças automotivas, materiais para confecção, eletrônicos e eletroportáteis.<br>
 				   Nosso Centro de armazenagem amplo, seguro e bem localizado, também contamos com um cofre de segurança para
-				 armazenar produtos de alto valor.</p>
+				 armazenar produtos de alto valor.</p><br><br>
 			</div>
 		</div>
 		<div class="row">

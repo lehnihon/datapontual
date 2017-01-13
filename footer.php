@@ -19,11 +19,11 @@
 				</div>
 				<div class="col-md-2 text-left">
 					<strong>A Empresa</strong><br>
-					<p><a href="<?php echo home_url( '/' )."sobre"; ?>">Sobre a Data Pontual</a><br>
+					<a href="<?php echo home_url( '/' )."sobre"; ?>">Sobre a Data Pontual</a><br>
 						<a href="<?php echo home_url( '/' )."envie-email"; ?>">Fale Conosco</a><br>
 						<a href="<?php echo home_url( '/' )."seja-fornecedor"; ?>">Seja nosso fornecedor</a><br>
 						<a href="<?php echo home_url( '/' )."trabalhe-conosco"; ?>">Trabalhe conosco</a>
-						</p>
+						
 				</div>
 				<div class="col-md-2 text-left">
 					<strong>Serviços</strong><br>
