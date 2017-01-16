@@ -53,9 +53,11 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
           font-size: 13px; }
         #page nav#principal div.menu-header div.menu-op a:hover {
           border-bottom: 2px solid white; }
+        #page nav#principal div.menu-header div.menu-op label {
+          cursor: pointer; }
         #page nav#principal div.menu-header div.menu-op .menu-img {
           margin-right: 5px;
-          vertical-align: baseline; }
+          vertical-align: text-top; }
       #page nav#principal div.menu-header div.menu-sec {
         margin-left: 30px; }
       #page nav#principal div.menu-header .criar-conta {
@@ -66,35 +68,6 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
         padding: 10px !important; }
       #page nav#principal div.menu-header .criar-conta:hover {
         background-color: #b5934e;
-        border-bottom: 1px solid white !important; }
-  #page nav#principalb {
-    padding: 25px 0; }
-    #page nav#principalb div.menu-header {
-      margin-top: 25px; }
-      #page nav#principalb div.menu-header div.menu-op {
-        float: right;
-        margin-right: 20px; }
-        #page nav#principalb div.menu-header div.menu-op a {
-          color: #797979;
-          font-weight: bold;
-          padding-bottom: 10px;
-          font-size: 13px; }
-        #page nav#principalb div.menu-header div.menu-op a:hover {
-          border-bottom: 2px solid #797979; }
-        #page nav#principalb div.menu-header div.menu-op .menu-img {
-          margin-right: 5px;
-          vertical-align: baseline; }
-      #page nav#principalb div.menu-header div.menu-sec {
-        margin-left: 30px; }
-      #page nav#principalb div.menu-header .criar-conta {
-        -webkit-border-radius: 6px;
-        -moz-border-radius: 6px;
-        border-radius: 6px;
-        border: 1px solid white;
-        padding: 10px !important; }
-      #page nav#principalb div.menu-header .criar-conta:hover {
-        background-color: #797979;
-        color: white;
         border-bottom: 1px solid white !important; }
   #page nav.fixar {
     padding: 0 !important;
@@ -107,16 +80,16 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
     left: 0 !important;
     background-color: #FFFFFF;
     box-shadow: 0px 2px 2px #ececec; }
-    #page nav.fixar a {
+    #page nav.fixar div.menu-op a {
       color: #858585 !important; }
-    #page nav.fixar a:hover {
+    #page nav.fixar div.menu-op a:hover {
       border-bottom: 2px solid #858585 !important; }
-    #page nav.fixar .criar-conta {
+    #page nav.fixar div.menu-op .criar-conta {
       -webkit-border-radius: 6px;
       -moz-border-radius: 6px;
       border-radius: 6px;
       border: 1px solid #858585 !important; }
-    #page nav.fixar .criar-conta:hover {
+    #page nav.fixar div.menu-op .criar-conta:hover {
       color: white !important; }
   @media (max-width: 991px) {
     #page div.menu-responsivo {
@@ -322,6 +295,8 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
     margin-top: 40px; }
     #page .form7 p {
       margin-bottom: 20px; }
+    #page .form7 label {
+      font-weight: normal !important; }
 
 .videoWrapper {
   position: relative;
