@@ -37,13 +37,13 @@
 						><li><a href="<?php echo home_url( '/' )."logistica-para-ecommerce"; ?>">Logística para e-Commerce</a></li
 						><li><a href="<?php echo home_url( '/' )."envie-email"; ?>">Envie um e-mail</a></li
 						><li><a href="<?php echo home_url( '/' )."ligue-agora"; ?>">Ligue Agora</a></li
-						><li><a href="#">Entrar</a></li
-						><li><a href="#">Criar Conta</a></li>
+						><li><a href="http://54.207.92.38">Entrar</a></li
+						><li><a href="#" data-toggle="modal" data-target="#myModala">Criar Conta</a></li>
 						</ul>								
 					</div>						
 					<div class="menu-header clearfix">
-						<div class="menu-op"><a class="criar-conta" href="#">Criar Conta</a></div>
-						<div class="menu-op menu-sec"><a href="#">Entrar</a></div>
+						<div class="menu-op"><a href="#" data-toggle="modal" data-target="#myModala">Criar Conta</a></div>
+						<div class="menu-op menu-sec"><a href="http://54.207.92.38">Entrar</a></div>
 						<div class="menu-op"><a href="<?php echo home_url( '/' )."ligue-agora"; ?>"><img alt="logo" class="e-claro menu-img tel" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/tel.png"; ?>" /><label>Ligue Agora</label></a></div>	
 						<div class="menu-op"><a href="<?php echo home_url( '/' )."envie-email"; ?>"><img alt="logo" class="e-claro menu-img email" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/e-mail.png"; ?>" /><label>Envie um e-mail</label></a></div>								
 						<div class="menu-op"><a href="<?php echo home_url( '/' )."logistica-para-ecommerce"; ?>">Logística para e-Commerce</a></div>

@@ -161,4 +161,14 @@ get_header(); ?>
 	</div>
 </div>
 
+<div class="modal fade" id="myModala" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+	<div class="modal-dialog" role="document" style="width:800px; margin-top:150px">
+		<div class="modal-content">
+			<div class="modal-body text-left" style="padding: 30px">
+				<?php echo do_shortcode( '[contact-form-7 id="315" title="cadastro"]' ); ?>
+			</div>
+		</div>
+	</div>
+</div>
+
 <?php get_footer(); ?>

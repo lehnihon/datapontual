@@ -48,6 +48,53 @@ nav#principal{
     }		
 }
 
+nav#principalb{
+    padding:25px 0;
+
+    div.menu-header{
+        margin-top: 25px;
+
+        div.menu-op{
+            float:right;
+            margin-right: 20px;
+            a{
+                color:#797979;
+                font-weight: bold;
+                padding-bottom:10px;
+                font-size:13px;
+            }
+            a:hover{
+                border-bottom:2px solid #797979;
+            }
+
+            label{
+                cursor:pointer;
+            }
+
+            .menu-img{
+                margin-right: 5px;
+                vertical-align: text-top;
+            }
+        }
+        div.menu-sec{
+            margin-left: 30px;
+        }
+        .criar-conta{
+            -webkit-border-radius: 6px; 
+            -moz-border-radius: 6px; 
+            border-radius: 6px;
+            border:1px solid white;
+            padding:10px !important;            
+        }
+        .criar-conta:hover{
+            background-color: #797979;
+            color:white;
+            border-bottom:1px solid white !important;
+        }
+
+    }       
+}
+
 nav.fixar {
     padding:0 !important;
     padding-bottom:5px !important;
