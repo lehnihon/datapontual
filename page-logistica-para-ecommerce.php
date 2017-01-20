@@ -106,7 +106,7 @@ get_header(); ?>
 		</div><br><br>
 		<div class="row">
 			<div class="col-md-12">
-				<a class="saiba-mais" href="<?php echo home_url( '/' )."contato"; ?>">Orçamento</a>
+				<a class="saiba-mais" href="<?php echo home_url( '/' )."envie-email"; ?>">Orçamento</a>
 			</div>
 		</div>
 	</div>
