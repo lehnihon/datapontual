@@ -42,7 +42,7 @@
 						</ul>								
 					</div>						
 					<div class="menu-header clearfix">
-						<div class="menu-op"><a href="#" data-toggle="modal" data-target="#myModala">Criar Conta</a></div>
+						<div class="menu-op"><a class="criar-conta" href="#" data-toggle="modal" data-target="#myModala">Criar Conta</a></div>
 						<div class="menu-op menu-sec"><a href="http://54.207.92.38">Entrar</a></div>
 						<div class="menu-op"><a href="<?php echo home_url( '/' )."ligue-agora"; ?>"><img alt="logo" class="e-claro menu-img" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/telb.png"; ?>" /><label>Ligue Agora</label></a></div>	
 						<div class="menu-op"><a href="<?php echo home_url( '/' )."envie-email"; ?>"><img alt="logo" class="e-claro menu-img" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/e-mailb.png"; ?>" /><label>Envie um e-mail</label></a></div>	
