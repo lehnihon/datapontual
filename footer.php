@@ -49,12 +49,11 @@
 	<div id="copy">
 		<div class="container">
 			<div class="row copy-text">
-				<div class="col-md-6 text-left text-footer">
+				<div class="col-md-11 text-center text-footer">
 					&copy; Copyright <?php echo date('Y') ?> - Data Pontual - Logística para Lojas Virtuais
 				</div>
-				<div class="col-md-3 col-md-offset-3 text-left">
+				<div class="col-md-1 text-left">
 					<a target="_blank" href="http://agenciarino.com.br/">
-						<span>Desenvolvido por</span>
 						<img class="e-claro anima-rino" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/rino-bot.png"; ?>" />
 					</a>
 				</div>				

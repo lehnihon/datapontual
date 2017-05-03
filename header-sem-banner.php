@@ -21,35 +21,54 @@
 
 <body <?php body_class(); ?>>
 <div id="page">
-	<nav id="principalb">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-3 text-left">
-					<a href="<?php echo home_url( '/' ); ?>"><img alt="logo" class="e-claro logo" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/logo-topb.png"; ?>" /></a>
-				</div>
-				<div class="col-md-9">
-					<div class="menu-responsivo">
-						<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-							<span class="glyphicon glyphicon-align-justify" aria-hidden="true"></span>
-						</button>
-						<ul class="dropdown-menu">
-						<li><a href="<?php echo home_url( '/' )."sobre"; ?>">Sobre a Data Pontual</a></li
-						><li><a href="<?php echo home_url( '/' )."logistica-para-ecommerce"; ?>">Logística para e-Commerce</a></li
-						><li><a href="<?php echo home_url( '/' )."envie-email"; ?>">Envie um e-mail</a></li
-						><li><a href="<?php echo home_url( '/' )."ligue-agora"; ?>">Ligue Agora</a></li
-						><li><a href="http://54.207.92.38">Entrar</a></li
-						><li><a href="#" data-toggle="modal" data-target="#myModala">Criar Conta</a></li>
-						</ul>								
-					</div>						
-					<div class="menu-header clearfix">
-						<div class="menu-op"><a class="criar-conta" href="#" data-toggle="modal" data-target="#myModala">Criar Conta</a></div>
-						<div class="menu-op menu-sec"><a href="http://54.207.92.38">Entrar</a></div>
-						<div class="menu-op"><a href="<?php echo home_url( '/' )."ligue-agora"; ?>"><img alt="logo" class="e-claro menu-img" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/telb.png"; ?>" /><label>Ligue Agora</label></a></div>	
-						<div class="menu-op"><a href="<?php echo home_url( '/' )."envie-email"; ?>"><img alt="logo" class="e-claro menu-img" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/e-mailb.png"; ?>" /><label>Envie um e-mail</label></a></div>	
-						<div class="menu-op"><a href="<?php echo home_url( '/' )."logistica-para-ecommerce"; ?>">Logística para e-Commerce</a></div>
-						<div class="menu-op"><a href="<?php echo home_url( '/' )."sobre"; ?>">Sobre a Data Pontual</a></div>
+	<section id="header">
+		<header>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-3 col-md-offset-6 box clearfix">
+						<span class="cor-amarelo redes-texto">Redes sociais</span>	
+						<ul class="redes_sociais_header">
+							<li class="youtube"><a target="_blank" href="https://www.youtube.com/channel/UCb42k7qXDCeQSI7LvPDc8ZA"></a></li>
+							<li class="instagram"><a target="_blank" href="https://www.instagram.com/datacerta"></a></li>
+							<li class="twitter"><a target="_blank" href="https://twitter.com/datacertalog"></a></li>
+							<li class="facebook"><a target="_blank" href="https://www.facebook.com/datacertalogistica"></a></li>
+						</ul>
 					</div>
-				</div>					
+					<div class="col-md-3 box text-right">
+						<span class="cor-amarelo">Fale com a gente:</span>
+						<span class="texto-branco">11 <strong>2061-3138</strong></span>
+					</div>
+				</div>
 			</div>
-		</div>
-	</nav>
+		</header>
+		<nav>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-3 text-left">
+						<a href="<?php echo home_url( '/' ); ?>"><img class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/logo-top.jpg"; ?>" /></a>
+					</div>
+					<div class="col-md-9">
+						<div class="menu-responsivo">
+							<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								<span class="glyphicon glyphicon-align-justify" aria-hidden="true"></span>
+							</button>
+							<ul class="dropdown-menu">
+							<li><a href="<?php echo home_url( '/' ); ?>">Início</a></li
+							><li><a href="<?php echo home_url( '/' )."sobre"; ?>">A Data Pontual</a></li
+							><li><a href="<?php echo home_url( '/' )."logistica-para-ecommerce"; ?>">Serviços</a></li
+							><li><a href="<?php echo home_url( '/' )."envie-email"; ?>">Atendimento</a></li
+							><li><a href="<?php echo home_url( '/' )."envie-email"; ?>">Orçamento</a></li>
+							</ul>								
+						</div>						
+						<div class="menu-header clearfix">
+							<div class="menu-op"><a class="orcamento" href="<?php echo home_url( '/' )."envie-email"; ?>">Orçamento</a></div>
+							<div class="menu-op"><a href="<?php echo home_url( '/' )."envie-email"; ?>">Atendimento</a></div>							
+							<div class="menu-op"><a href="<?php echo home_url( '/' )."logistica-para-ecommerce"; ?>">Serviços</a></div>
+							<div class="menu-op"><a href="<?php echo home_url( '/' )."sobre"; ?>">A Data Pontual</a></div>
+							<div class="menu-op"><a href="<?php echo home_url( '/' ); ?>">Início</a></div>
+						</div>
+					</div>					
+				</div>
+			</div>
+		</nav>
+	</section>

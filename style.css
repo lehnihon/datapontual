@@ -35,105 +35,147 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
     color: #858585;
     font-size: 22px;
     font-weight: bold; }
-  #page nav#principal {
-    padding: 25px 0;
-    position: absolute;
-    right: 0;
-    left: 0;
-    z-index: 1010; }
-    #page nav#principal div.menu-header {
+  #page section#header header {
+    margin-top: 10px;
+    background-color: #3259a9;
+    color: white; }
+    #page section#header header .redes-texto {
+      padding-top: 2px;
+      display: block;
+      float: left; }
+    #page section#header header ul {
+      padding-top: 2px;
+      padding-left: 5px;
+      float: left; }
+    #page section#header header div.box {
+      padding-top: 8px;
+      padding-bottom: 8px; }
+    #page section#header header span.texto-branco {
+      margin-left: 5px;
+      font-size: 15px; }
+    #page section#header header ul.redes_sociais_header {
+      height: 22px;
+      text-align: left;
+      list-style: none;
+      margin-bottom: 0; }
+    #page section#header header ul.redes_sociais_header li:hover {
+      opacity: 0.6;
+      filter: alpha(opacity=60);
+      /* For IE8 and earlier */ }
+    #page section#header header ul.redes_sociais_header li {
+      margin-right: 5px; }
+    #page section#header header ul.redes_sociais_header a {
+      display: inline-block;
+      width: 22px;
+      height: 20px; }
+    #page section#header header ul.redes_sociais_header .youtube {
+      background-image: url("images/redes-top.png");
+      background-position: left,center;
+      background-repeat: no-repeat;
+      width: 22px;
+      height: 20px;
+      display: inline-block; }
+    #page section#header header ul.redes_sociais_header .instagram {
+      background-image: url("images/redes-top.png");
+      background-position: -34px,center;
+      background-repeat: no-repeat;
+      width: 22px;
+      height: 20px;
+      display: inline-block; }
+    #page section#header header ul.redes_sociais_header .twitter {
+      background-image: url("images/redes-top.png");
+      background-position: -66px,center;
+      background-repeat: no-repeat;
+      width: 22px;
+      height: 20px;
+      display: inline-block; }
+    #page section#header header ul.redes_sociais_header .facebook {
+      background-image: url("images/redes-top.png");
+      background-position: -98px,center;
+      background-repeat: no-repeat;
+      width: 22px;
+      height: 20px;
+      display: inline-block; }
+    #page section#header header .btn-login {
+      background-color: #ffc709;
+      padding: 5px 10px;
+      color: #003869;
+      border: 0;
+      font-weight: bold;
+      border-radius: 5px;
+      margin-left: 10px;
+      font-size: 12px; }
+  #page section#header nav {
+    padding: 20px 0; }
+    #page section#header nav form.search-form input.pesquisar-input {
+      background-color: #e4e4e4;
+      border: 0;
+      float: left;
+      padding: 10.5px 5px; }
+    #page section#header nav form.search-form input.pesquisar-submit {
+      float: left; }
+    #page section#header nav div.menu-header {
       margin-top: 25px; }
-      #page nav#principal div.menu-header div.menu-op {
+      #page section#header nav div.menu-header div.menu-op {
         float: right;
-        margin-right: 20px; }
-        #page nav#principal div.menu-header div.menu-op a {
-          color: white;
-          font-weight: bold;
-          padding-bottom: 10px;
-          font-size: 13px; }
-        #page nav#principal div.menu-header div.menu-op a:hover {
-          border-bottom: 2px solid white; }
-        #page nav#principal div.menu-header div.menu-op label {
-          cursor: pointer; }
-        #page nav#principal div.menu-header div.menu-op .menu-img {
-          margin-right: 5px;
-          vertical-align: text-top; }
-      #page nav#principal div.menu-header div.menu-sec {
-        margin-left: 30px; }
-      #page nav#principal div.menu-header .criar-conta {
-        -webkit-border-radius: 6px;
-        -moz-border-radius: 6px;
-        border-radius: 6px;
-        border: 1px solid white;
-        padding: 10px !important; }
-      #page nav#principal div.menu-header .criar-conta:hover {
-        background-color: #b5934e;
-        border-bottom: 1px solid white !important; }
-  #page nav#principalb {
-    padding: 25px 0; }
-    #page nav#principalb div.menu-header {
-      margin-top: 25px; }
-      #page nav#principalb div.menu-header div.menu-op {
+        margin-left: 30px;
+        position: relative; }
+        #page section#header nav div.menu-header div.menu-op a {
+          color: #858585;
+          font-weight: bold; }
+        #page section#header nav div.menu-header div.menu-op a:hover {
+          color: #f05016; }
+        #page section#header nav div.menu-header div.menu-op a.orcamento {
+          border-radius: 5px;
+          background-color: #f05016;
+          color: #FFF;
+          padding: 10px 25px; }
+        #page section#header nav div.menu-header div.menu-op a.orcamento:hover {
+          background-color: #f69673; }
+      #page section#header nav div.menu-header button.btn-default {
+        background-color: transparent;
+        border: 0;
+        padding: 0;
+        color: #858585;
+        font-weight: bold; }
+    #page section#header nav div.menu-header-blog {
+      margin-top: 15px; }
+      #page section#header nav div.menu-header-blog div.menu-op {
+        margin-top: 12px;
         float: right;
-        margin-right: 20px; }
-        #page nav#principalb div.menu-header div.menu-op a {
-          color: #797979;
-          font-weight: bold;
-          padding-bottom: 10px;
-          font-size: 13px; }
-        #page nav#principalb div.menu-header div.menu-op a:hover {
-          border-bottom: 2px solid #797979; }
-        #page nav#principalb div.menu-header div.menu-op label {
-          cursor: pointer; }
-        #page nav#principalb div.menu-header div.menu-op .menu-img {
-          margin-right: 5px;
-          vertical-align: text-top; }
-      #page nav#principalb div.menu-header div.menu-sec {
         margin-left: 30px; }
-      #page nav#principalb div.menu-header .criar-conta {
-        -webkit-border-radius: 6px;
-        -moz-border-radius: 6px;
-        border-radius: 6px;
-        border: 1px solid white;
-        padding: 10px !important; }
-      #page nav#principalb div.menu-header .criar-conta:hover {
-        background-color: #797979;
-        color: white;
-        border-bottom: 1px solid white !important; }
-  #page nav.fixar {
-    padding: 0 !important;
-    padding-bottom: 5px !important;
-    padding-top: 5px !important;
-    position: fixed !important;
-    z-index: 1000 !important;
-    margin-top: 0px !important;
-    right: 0 !important;
-    left: 0 !important;
-    background-color: #FFFFFF;
-    box-shadow: 0px 2px 2px #ececec; }
-    #page nav.fixar div.menu-op a {
-      color: #858585 !important; }
-    #page nav.fixar div.menu-op a:hover {
-      border-bottom: 2px solid #858585 !important; }
-    #page nav.fixar div.menu-op .criar-conta {
-      -webkit-border-radius: 6px;
-      -moz-border-radius: 6px;
-      border-radius: 6px;
-      border: 1px solid #858585 !important; }
-    #page nav.fixar div.menu-op .criar-conta:hover {
-      color: white !important; }
+        #page section#header nav div.menu-header-blog div.menu-op a {
+          color: #858585;
+          font-weight: bold; }
+        #page section#header nav div.menu-header-blog div.menu-op a:hover {
+          color: #f05016; }
+      #page section#header nav div.menu-header-blog div.wrap-search {
+        margin-top: 0;
+        margin-right: 0; }
   @media (max-width: 991px) {
+    #page div.header-login-responsive {
+      display: block !important; }
+    #page div.header-login {
+      display: none !important; }
     #page div.menu-responsivo {
       width: 50px;
       text-align: left;
       display: block;
       padding: 10px; }
     #page div.menu-header {
+      display: none; }
+    #page div.menu-header-blog {
       display: none; } }
   @media (min-width: 992px) {
+    #page div.header-login-responsive {
+      display: none !important; }
+    #page div.header-login {
+      display: block !important; }
     #page div.menu-responsivo {
       display: none; }
     #page ul.menu-header {
+      display: block; }
+    #page div.menu-header-blog {
       display: block; } }
   #page #sobre-home {
     background-color: #f9f9f9;
@@ -141,7 +183,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
     #page #sobre-home ul {
       padding-left: 20px; }
       #page #sobre-home ul li {
-        color: #b1842c; }
+        color: #f05016; }
         #page #sobre-home ul li span {
           color: #858585; }
   #page #sobre-descricao {
@@ -156,7 +198,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
   #page #solucoes-home {
     padding: 60px 0; }
   #page #vantagens-ecommerce {
-    background-color: #b1842c;
+    background-color: #3259a9;
     padding: 80px 0; }
     #page #vantagens-ecommerce h2, #page #vantagens-ecommerce p {
       color: white; }
@@ -170,7 +212,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
     #page #vantagens-ecommerce .saiba-mais:hover {
       background-color: #b5934e; }
   #page #vantagens-home {
-    background-color: #b1842c;
+    background-color: #3259a9;
     width: 100%;
     padding: 80px 0; }
     #page #vantagens-home h2, #page #vantagens-home p {
@@ -190,7 +232,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
       width: 80px;
       height: 80px;
       color: #FFFFFF;
-      background-color: #b1842c;
+      background-color: #3259a9;
       font-size: 40px;
       font-weight: 600;
       line-height: 76px;
@@ -211,7 +253,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
   #page #orcamento {
     padding: 60px 0; }
   #page #fale-conosco {
-    background-color: #ececec;
+    background-color: #f05016;
     padding: 25px 0; }
   #page #contato-pag {
     padding: 60px 0; }
@@ -219,7 +261,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
       margin-bottom: 10px; }
     #page #contato-pag div.info-right {
       margin-top: 25px;
-      background-color: #b1842c;
+      background-color: #3259a9;
       color: white;
       padding: 25px; }
   @media (max-width: 991px) {
@@ -232,11 +274,11 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
   #page #footer {
     padding: 40px 0;
     padding-bottom: 20px;
-    background-color: #b5934e; }
+    background-color: #3259a9; }
     #page #footer p, #page #footer a, #page #footer strong {
       color: white; }
     #page #footer a:hover {
-      color: #b1842c; }
+      color: #f05016; }
     #page #footer ul.redes_sociais_header {
       padding: 0;
       height: 27px;
@@ -284,7 +326,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
       display: inline-block; }
   #page #copy {
     padding: 10px 0;
-    background-color: #a88032; }
+    background-color: #2c519f; }
     #page #copy .copy-text, #page #copy span {
       font-size: 12px;
       color: white; }
@@ -306,11 +348,11 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
     -moz-border-radius: 6px;
     border-radius: 6px;
     padding: 10px 70px;
-    background-color: #b1842c;
+    background-color: #3259a9;
     color: white;
     margin-top: 10px; }
   #page .btn-contato:hover {
-    background-color: #b5934e; }
+    background-color: #6f8ac2; }
   #page .btn-redondo {
     border: 0;
     -webkit-border-radius: 6px;
@@ -318,10 +360,15 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
     border-radius: 6px;
     padding: 10px 20px; }
   #page .btn-azul {
-    background-color: #b1842c;
+    background-color: #3259a9;
     color: white; }
   #page .btn-azul:hover {
-    background-color: #b5934e; }
+    background-color: #6f8ac2; }
+  #page .btn-laranja {
+    background-color: #f05016;
+    color: white; }
+  #page .btn-laranja:hover {
+    background-color: #f4845b; }
   #page .form7 {
     margin-top: 40px; }
     #page .form7 p {

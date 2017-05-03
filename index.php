@@ -11,6 +11,26 @@ get_header(); ?>
 	</div>
 </div>
 
+<div id="solucoes-home">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-8 col-md-offset-2 anima-c">
+				<h2>Logística completa para e-Commerce</h2><br>
+				<p>Com a nossa solução completa de logística para loja virtual, você não perde mais tempo embalando
+				 e levando os produtos para os Correios. Quando a loja virtual escolhe por armazenar seu próprio estoque,
+				 nem sempre é a operação mais econômica.</p><br><br>
+				<img class="img-responsive" alt="processo" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/processo.jpg"; ?>"/><br><br>
+				<p>O que você deve levar em consideração é que, além do custo operacional, muitas vezes acaba investindo o
+				 seu tempo para preparar, embalar despachar os produtos, e coloca em risco a evolução da própria loja,
+				 uma vez que você não fica 100% focado nas estratégias de venda e crescimento da loja virtual.</p>
+				 <p>Contar com uma empresa especializado em logística para lojas virtuais, que oferece soluções inteligentes de
+				  armazenagem, manuseio e entrega, é um investimento que pode se pagar em curto ou médio prazo.</p><br>
+				  <a href="<?php echo home_url( '/' )."envie-email"; ?>" class="btn-redondo btn-azul">Quero um Orçamento</a>
+			</div>
+		</div>
+	</div>
+</div>
+
 <div id="sobre-home">
 	<div class="container">
 		<div class="row">
@@ -31,30 +51,10 @@ get_header(); ?>
 					<li><span><span>Transporte e Distribuição</span></li>
 					<li><span>Projeto personalizado para cada loja virtual</span></li>
 				</ul><br><br>
-				<a href="#orcamento" class="btn-redondo btn-azul">Saiba mais</a>
+				<a href="<?php echo home_url( '/' )."sobre"; ?>" class="btn-redondo btn-laranja">Saiba mais</a>
 			</div>
 			<div class="col-md-6 anima-b">
 				<img class="img-responsive" alt="feios" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/feios.jpg"; ?>"/>
-			</div>
-		</div>
-	</div>
-</div>
-
-<div id="solucoes-home">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-8 col-md-offset-2 anima-c">
-				<h2>Logística completa para e-Commerce</h2><br>
-				<p>Com a nossa solução completa de logística para loja virtual, você não perde mais tempo embalando
-				 e levando os produtos para os Correios. Quando a loja virtual escolhe por armazenar seu próprio estoque,
-				 nem sempre é a operação mais econômica.</p><br><br>
-				<img class="img-responsive" alt="processo" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/processo.jpg"; ?>"/><br><br>
-				<p>O que você deve levar em consideração é que, além do custo operacional, muitas vezes acaba investindo o
-				 seu tempo para preparar, embalar despachar os produtos, e coloca em risco a evolução da própria loja,
-				 uma vez que você não fica 100% focado nas estratégias de venda e crescimento da loja virtual.</p>
-				 <p>Contar com uma empresa especializado em logística para lojas virtuais, que oferece soluções inteligentes de
-				  armazenagem, manuseio e entrega, é um investimento que pode se pagar em curto ou médio prazo.</p><br>
-				  <a href="#orcamento" class="btn-redondo btn-azul">Saiba mais</a>
 			</div>
 		</div>
 	</div>
